@@ -94,7 +94,8 @@ const getArr = (obj, matchStr) => {
   const keys = Object.keys(obj).filter((entry) => entry.match(matchStr));
   let arr = [];
   keys.forEach((ele) => {
-    if (obj[ele] !== "" && obj[ele] !== null && obj[ele] !== " ") arr.push(obj[ele]);
+    if (obj[ele] !== "" && obj[ele] !== null && obj[ele] !== " ")
+      arr.push(obj[ele]);
   });
   return arr;
 };
