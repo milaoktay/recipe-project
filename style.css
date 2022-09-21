@@ -84,7 +84,7 @@ h1 {
   max-width: 100rem;
   border-radius: 0.7rem;
   margin: 3rem;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .meal__img {
